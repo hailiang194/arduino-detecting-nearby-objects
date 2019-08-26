@@ -15,6 +15,9 @@ def get_list_audio_number(number):
 	
 	lstAudio = []
 
+	if(number == 0):
+		lstAudio.append(information.AUDIO_DIGITS_FOLDER + "zero.mp3")
+
 	hundred = number // 100
 	ten = (number % 100) // 10
 	unit = number % 10
