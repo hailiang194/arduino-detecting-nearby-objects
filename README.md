@@ -10,7 +10,7 @@ Using ultrasonic to detect objects that are near us
 ![Ultrasonic sensor](https://www.makerlab-electronics.com/my_uploads/2016/05/ultrasonic-sensor-HCSR04-1.jpg)
 
 ## Schematics
-!(Schematics)[https://github.com/53k41iga/arduino-detecting-nearby-objects/blob/master/board-design.jpg]
+![board-design](https://user-images.githubusercontent.com/30114830/63758730-7277d500-c8e6-11e9-8e0e-10087dad6279.jpg)
 
 ## Install
 1. clone this repository
@@ -18,10 +18,17 @@ Using ultrasonic to detect objects that are near us
 git clone https://github.com/53k41iga/arduino-detecting-nearby-objects.git
 ```
 2. second, vetify get-data/get-data.ino then upload it into Arduino
-
+#### NOTE: 
+make sure you have installed ```pyserial``` and ```pygame``` using COM3 port in this project
 ## Implementation
-after installing into arduino, connect it to computer by USB and run main.py on terminal, cmd or Powershell
+after installing into arduino, connect it to computer by USB and run main.py on terminal, cmd or Powershell. We have 2 mode in this project
+#### SOUND
+This mode will talk to you distance and angle from the nearest object that it detect.
 ```
-python main.py
+python main.py SOUND
 ```
-At the present, it just can speak about the nearest object detected in Vietnamese in the future I will create a radar display on computer sceen.
+#### RADAR
+This mode will draw a radar for you
+```
+python main.py RADAR
+```
