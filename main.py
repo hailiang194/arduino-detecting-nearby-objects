@@ -17,6 +17,9 @@ if(mode == "SOUND"):
 	displaySize = radar.SOUND_ONLY_DISPLAY
 elif(mode == "RADAR"):
 	displaySize = radar.RADAR_DISPLAY
+else:
+	print("WRONG ARGV")
+	quit()
 
 screenDisplay = pygame.display.set_mode(displaySize)
 pygame.display.set_caption("RADAR PROJECT")
