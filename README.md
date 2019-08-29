@@ -10,7 +10,7 @@ Using ultrasonic to detect objects that are near us
 ![Ultrasonic sensor](https://www.makerlab-electronics.com/my_uploads/2016/05/ultrasonic-sensor-HCSR04-1.jpg)
 
 ## Schematics
-[!board-design](ttps://user-images.githubusercontent.com/30114830/63929569-dbdd1c80-ca7b-11e9-82ce-d1fc055852f9.jpg)
+![board-design](https://user-images.githubusercontent.com/30114830/63929569-dbdd1c80-ca7b-11e9-82ce-d1fc055852f9.jpg)
 
 ## Install
 1. clone this repository
